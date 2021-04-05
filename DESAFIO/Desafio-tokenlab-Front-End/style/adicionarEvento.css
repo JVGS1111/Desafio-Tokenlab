@@ -1,0 +1,49 @@
+main.formulario-container{
+    left: 50%;
+    top: 20%;
+    position: relative;
+    width: 400px;
+    transform: translate(-50%);
+    background-color: rgb(132, 152, 214);
+    padding: 25px;
+    border-radius: 25px;
+}
+h2{
+    text-align: center;
+    font-weight: normal;
+}
+main.formulario-container form{
+    text-align: left;
+}
+input[type=text],input[type=textarea]{
+    width: 90%;
+    height: 30px;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+span{
+    font-size: 20px;
+    font-weight: normal;
+}
+form > input[type=submit]{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 150px;
+    height: 60px;
+    border: none;
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 30px;
+    background-color: white;
+    
+}
+
+
+input[type=submit]:hover{
+    background-color: rgb(224, 223, 223);
+     
+}

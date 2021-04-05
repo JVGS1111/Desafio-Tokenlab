@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+	<title>Eventos</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/listaDeEventos.css">
+</head>
+<body>  
+    <header>
+        <img src="../imgs/tl-logo.png">
+        <nav>
+            <ul>
+                <li><a href="./listaDeEventos.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="evento-container">
+        <table>
+            <thead>
+            <tr>
+                <th class="tabela__coluna--m">Nome do evento</th>
+                <th class="tabela__coluna--g">Descrição </th>
+                <th class="tabela__coluna--p">Dia</th>
+                <th class="tabela__coluna--p">Início</th>
+                <th class="tabela__coluna--p">Fim</th>
+                <th class="tabela__coluna--m tabela__alinhamento--direita"><a href="./adicionarEvento.html" class="botao-simples-adicionar">Novo Evento</a></th>
+            </tr>
+            </thead>
+            <tbody data-tabela>
+            <!---->
+            </tbody>
+        </table>
+    </main><!-- evento-container -->
+
+</body>
+<script type="module" src="../controllers/listaEvento.js"></script>
+</html>

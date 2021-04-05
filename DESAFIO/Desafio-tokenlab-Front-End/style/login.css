@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+    
+}
+
+html,body{
+	height: 100%;
+}
+.container{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 20px;
+    width: 400px;
+    background-color: rgb(132, 152, 214);
+    text-align: center;
+
+}
+
+section.formulario > .container >form> input[type=text]{
+    
+    width: 300px;
+    background-color: rgb(132, 152, 214);
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    margin-top: 20px;
+    line-height: 30px;
+    transition: width 0.4s;
+}
+section.formulario > .container >form> input[type=text]:focus {
+    transition: width 0.4s ease-in-out;
+
+}
+
+section.formulario > .container >form> input[type=text]:focus {
+    width: 100%;
+
+}
+section.formulario > .container >form> input[type=text]::placeholder {
+    color: black;
+    text-transform: uppercase;
+}
+
+section.formulario > .container >form> a{
+    position: relative;
+    float: left;
+    color: rgb(1, 15, 209);
+    left: 30px;
+    
+}
+section.formulario > .container >form> input[type=submit]{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 1s;
+}
+section.formulario > .container >form> input[type=submit]:hover{
+    width: 150px;
+    height: 43px;
+    transition: 1s;
+}

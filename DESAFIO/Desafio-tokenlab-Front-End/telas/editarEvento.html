@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="../style/adicionarEvento.css" rel="stylesheet" type="text/css">
+	<title>Eventos</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/listaDeEventos.css">
+</head>
+<body>  
+    <header>
+        <img src="../imgs/tl-logo.png">
+        <nav>
+            <ul>
+                <li><a href="./listaDeEventos.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="formulario-container" >
+        <form data-form>
+            <h2>Adicionar Evento</h2>
+            <br>
+            <span>Nome do Evento</span>
+            <br>
+            <input type="text" name="nomeDoEvento" id="nomeDoEvento" data-nome>
+            <br>
+            <span>Descrição</span>
+            <br>
+            <input type="textarea" name="descricao" id="descricao"data-descricao>
+            <br>
+            <span>Dia</span>
+            <br>
+            <input type="date" name="dia" id="dia" data-dia>
+            <br>
+            <span>Início</span>
+            <br>
+            <input type="time" name="inicio" id="inicio" data-inicio>
+            <br>
+            <span>Fim</span>
+            <br>
+            <input type="time" name="fim" id="fim" data-fim>
+            <br>
+            <input type="submit" name="enviar" id="enviar">
+        </form>
+    </main>
+</body>
+<script type="module" src="../controllers/editaEvento.js"></script>
+</html>
